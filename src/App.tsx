@@ -2,12 +2,12 @@ import {
   ActionButton,
   Button,
   ButtonGroup,
+  defaultTheme,
   Heading,
   Item,
   Menu,
   MenuTrigger,
   Provider,
-  defaultTheme,
 } from "@adobe/react-spectrum";
 
 import classes from "./App.module.css";
