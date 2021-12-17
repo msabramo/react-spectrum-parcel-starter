@@ -2,10 +2,10 @@
   "name": "react-spectrum-parcel-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "THEME_LIGHT=true THEME_DARKEST=true parcel serve src/index.html --open",
     "dev:https": "THEME_LIGHT=true THEME_DARKEST=true parcel serve src/index.html --open --https",
+    "build": "THEME_LIGHT=true THEME_DARKEST=true parcel build src/index.html",
     "lint": "eslint src/",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
