@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --color --watch"
   },
   "keywords": [],
   "author": "",
