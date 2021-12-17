@@ -11,7 +11,8 @@
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "test": "jest --color --watch",
-    "test:ci": "jest --color --ci"
+    "test:ci": "jest --color --ci",
+    "test:allthethings": "yarn test:ci && echo && yarn lint"
   },
   "repository": {
     "type": "git",
