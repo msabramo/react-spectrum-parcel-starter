@@ -1,12 +1,16 @@
 import {
-  ActionButton, Button, ButtonGroup,
-  Heading, Item,
-  Menu, MenuTrigger,
+  ActionButton,
+  Button,
+  ButtonGroup,
+  Heading,
+  Item,
+  Menu,
+  MenuTrigger,
   Provider,
   defaultTheme,
-} from '@adobe/react-spectrum';
+} from "@adobe/react-spectrum";
 
-import classes from './App.module.css';
+import classes from "./App.module.css";
 
 const handlePress = (str) => {
   alert(`You pressed: ${str}`);
@@ -21,10 +25,18 @@ export function App() {
 
           <Heading level={2}>Buttons</Heading>
           <ButtonGroup>
-            <Button variant="cta" onPress={() => handlePress('Button')}>Button (cta)</Button>
-            <Button variant="primary" onPress={() => handlePress('Button')}>Button (primary)</Button>
-            <Button variant="secondary" onPress={() => handlePress('Button')}>Button (secondary)</Button>
-            <Button variant="negative" onPress={() => handlePress('Button')}>Button (negative)</Button>
+            <Button variant="cta" onPress={() => handlePress("Button")}>
+              Button (cta)
+            </Button>
+            <Button variant="primary" onPress={() => handlePress("Button")}>
+              Button (primary)
+            </Button>
+            <Button variant="secondary" onPress={() => handlePress("Button")}>
+              Button (secondary)
+            </Button>
+            <Button variant="negative" onPress={() => handlePress("Button")}>
+              Button (negative)
+            </Button>
           </ButtonGroup>
 
           <Heading level={2}>Menu</Heading>
