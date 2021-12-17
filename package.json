@@ -12,9 +12,20 @@
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "test": "jest --color --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msabramo/react-spectrum-parcel-starter"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Marc Abramowitz",
+    "url": "https://github.com/msabramo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msabramo/react-spectrum-parcel-starter/issues"
+  },
+  "homepage": "https://github.com/msabramo/react-spectrum-parcel-starter",
   "dependencies": {
     "@adobe/react-spectrum": "^3.15.1",
     "react": "^17.0.2",
