@@ -10,7 +10,7 @@ import {
   Provider,
 } from "@adobe/react-spectrum";
 
-import classes from "./App.module.css";
+import * as classes from "./App.module.css";
 
 const handlePress = (str) => {
   alert(`You pressed: ${str}`);
