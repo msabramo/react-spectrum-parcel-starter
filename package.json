@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "THEME_LIGHT=true THEME_DARKEST=true parcel serve src/index.html --open",
+    "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
+    "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "prettier": "^2.5.1"
   }
 }
