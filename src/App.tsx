@@ -12,7 +12,7 @@ import {
 
 import * as classes from "./App.module.css";
 
-const handlePress = (str) => {
+const handlePress = (str: string) => {
   alert(`You pressed: ${str}`);
 };
 
@@ -21,7 +21,7 @@ export function App() {
     <Provider theme={defaultTheme}>
       <div className={classes.container}>
         <div className={classes.container}>
-          <Heading level={1}>Hello React Spectrum!</Heading>
+          <Heading level={1}>Welcome to React Spectrum!</Heading>
 
           <Heading level={2}>Buttons</Heading>
           <ButtonGroup>

@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
-    "test": "jest --color --watch"
+    "test": "jest --color --watch",
+    "test:ci": "jest --color --ci"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,10 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.37",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
     "eslint": "^8.4.1",
@@ -43,9 +48,13 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.5",
+    "jsdom": "^19.0.0",
     "parcel": "^2.0.1",
     "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   }
 }
