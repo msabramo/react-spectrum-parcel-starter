@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "THEME_LIGHT=true THEME_DARKEST=true parcel serve src/index.html --open",
+    "dev:https": "THEME_LIGHT=true THEME_DARKEST=true parcel serve src/index.html --open --https",
     "lint": "eslint src/",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
