@@ -12,7 +12,7 @@
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "test": "jest --color --watch",
     "test:ci": "jest --color --ci",
-    "test:allthethings": "yarn test:ci && echo && yarn lint"
+    "test:allthethings": "yarn test:ci && echo && yarn lint && echo && yarn format"
   },
   "repository": {
     "type": "git",
