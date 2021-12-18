@@ -1,3 +1,5 @@
+# This is a GitHub action that tests the code
+
 name: Test
 'on':
   push:
