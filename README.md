@@ -9,6 +9,10 @@ React project with [Parcel][] as the bundler.
 
 ![Screenshot](images/screenshot.png)
 
+## Storybook
+
+You can view the [Storybook on GitHub Pages][].
+
 ## Get started
 
 ```sh
@@ -30,3 +34,4 @@ PORT=1234 yarn dev
 [parcel]: https://parceljs.org/
 [building a web app with parcel]: https://parceljs.org/getting-started/webapp/
 [next.js example with react spectrum]: https://github.com/reidbarber/rsp-next
+[storybook on github pages]: https://msabramo.github.io/react-spectrum-parcel-starter/
