@@ -1,3 +1,15 @@
 # Add 'GitHub actiongs' label to any PR with changes within '.github/workflows' folder or any subfolders
 "GitHub actions":
 - .github/workflows/**/*
+
+"package.json":
+- package.json
+
+"READMEs":
+- README*.md
+
+"TypeScript config":
+- tsconfig*.json
+
+"Jest":
+- jest.config.*
