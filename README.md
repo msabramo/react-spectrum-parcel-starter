@@ -1,5 +1,7 @@
 # react-spectrum-parcel-starter
 
+[![Test](https://github.com/msabramo/react-spectrum-parcel-starter/actions/workflows/test.yaml/badge.svg)](https://github.com/msabramo/react-spectrum-parcel-starter/actions/workflows/test.yaml)
+
 This is an example repo to show how to integrate [React Spectrum][] into a
 React project with [Parcel][] as the bundler.
 
