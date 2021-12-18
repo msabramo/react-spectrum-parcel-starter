@@ -16,12 +16,16 @@ const handlePress = (str: string) => {
   alert(`You pressed: ${str}`);
 };
 
-export function App() {
+interface AppProps {
+  message?: string;
+}
+
+export const App = ({ message = "Welcome to React Spectrum!" }: AppProps) => {
   return (
     <Provider theme={defaultTheme}>
       <div className={classes.container}>
         <div className={classes.container}>
-          <Heading level={1}>Welcome to React Spectrum!</Heading>
+          <Heading level={1}>{message}</Heading>
 
           <Heading level={2}>Buttons</Heading>
           <ButtonGroup>
@@ -53,4 +57,4 @@ export function App() {
       </div>
     </Provider>
   );
-}
+};
