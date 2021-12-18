@@ -1,0 +1,3 @@
+# Add 'GitHub actiongs' label to any PR with changes within '.github/workflows' folder or any subfolders
+"GitHub actions":
+- .github/workflows/**/*
