@@ -10,9 +10,11 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --check \"src/**/*.{ts,tsx,js,css,json,md}\"",
     "format:fix": "prettier --write  \"src/**/*.{ts,tsx,js,css,json,md}\"",
+    "ts-check": "tsc --build --pretty",
+    "ts-check:watch": "tsc --build --pretty --watch",
     "test": "jest --color --watch",
     "test:ci": "jest --color --ci",
-    "test:allthethings": "yarn test:ci && echo && yarn lint && echo && yarn format"
+    "test:allthethings": "yarn test:ci && echo && yarn lint && echo && yarn ts-check && echo && yarn format"
   },
   "repository": {
     "type": "git",
