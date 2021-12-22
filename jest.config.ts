@@ -1,4 +1,4 @@
-import type { Config } from '@jest/types';
+import type { Config } from "@jest/types";
 
 const config: Config.InitialOptions = {
   testEnvironment: "jsdom",
@@ -6,6 +6,7 @@ const config: Config.InitialOptions = {
   clearMocks: true,
   moduleFileExtensions: ["ts", "tsx", "js"],
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
+  coverageReporters: ["text", "html", "cobertura"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
